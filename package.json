@@ -1,0 +1,23 @@
+{
+  "name": "visibility-callback",
+  "version": "1.0.0",
+  "description": "DOM Element visibility callback",
+  "license": "MIT",
+  "repository": "svetli/visibility-callback",
+  "author": {
+    "name": "Svetli Nikolov",
+    "email": "me@svetli.name",
+    "url": "svetli.name"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+  },
+  "devDependencies": {
+    "xo": "^0.17.1"
+  }
+}

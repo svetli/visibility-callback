@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+        <title></title>
+        <script src="http://requirejs.org/docs/release/2.2.0/minified/require.js"></script>
+	</head>
+	<body>
+        <script src="index.js"></script>
+        <div style="height: 600px; display: block;">asd</div>
+        <div id="test">
+            HELLO DIV
+        </div>
+        <script>
+            function handle(e) {
+                console.log('isVisible');
+            };
+
+            document.addEventListener("DOMContentLoaded", function(event) {
+                var div = document.getElementById("test");
+                //window.onscroll = function() {
+                    addVisibleCallback({ element: div }, handle);
+                //};
+                watchVisible();
+            });
+        </script>
+	</body>
+</html>
+
